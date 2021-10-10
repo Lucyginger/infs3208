@@ -1,3 +1,13 @@
-<?php 
-echo "I am a PHP page running on NginX + PHP-PFM in a container!";
-phpinfo(); ?>
+
+<?php
+    include_once 'header.php';
+
+?>
+
+    <section class='container'>
+        <h1> Some random things </h1>
+    </section>
+
+
+</body>
+</html>
