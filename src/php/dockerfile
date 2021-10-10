@@ -9,7 +9,7 @@ RUN pecl install igbinary \
     && pecl install redis \
     && docker-php-ext-install mysqli \
     && docker-php-ext-enable redis \
-    && echo "extension=redis.so" > /usr/local/etc/php/conf.d/redis.ini
+    && echo "extension=redis.so" > /usr/local/etc/php/conf.d/redis.ini \
     && apt-get update \
     && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone \
     && apt-get install --no-install-recommends --no-install-suggests -q -y software-properties-common \
