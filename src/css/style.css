@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+}
+
+.menu, .container{
+    width: 1000px;
+    margin:  0 auto;
+}
+
+nav {
+    background-color: rgb(115, 189, 192);
+}
+
+.nav-container {
+    display: flex;
+}
+
+nav img{
+    margin-top: 5px;
+    padding: 5px;
+    height: 80px;
+    width:193px ;
+}
+
+ul {
+    display: inline-flex;
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu a{
+    padding: 25px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color: rgb(41, 129, 245);
+}
+
+h1{
+    margin: 1.5em;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
