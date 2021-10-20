@@ -1,9 +1,9 @@
 <?php
 
-$serverName = "localhost";
-$db_user = "root";
-$db_pass = "";
-$db_name = "useraccount";
+$serverName = "mysql";
+$db_user = "php";
+$db_pass = "php";
+$db_name = "cloud_computing";
 
 $conn = mysqli_connect($serverName, $db_user, $db_pass, $db_name);
 
